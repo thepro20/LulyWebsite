@@ -90,34 +90,62 @@
                 <img src="images/slidingluli.png" alt="">
             </div>
         </section>
-        <div id="storycontainer" class="scroll 2">
-            <div class="storyitem">
-                <h3>somewhere around 2000 I was born in Rotem’s sketchbook in Bezalel</h3>
-                <img src="images/story1.png" alt="">
+        <!-- Gallery -->
+        <div class="gallery js-flickity"
+        data-flickity-options='{ "groupCells": 2, "selectedAttraction": 0.03, "friction": 0.5, "prevNextButtons": false, "pageDots": false, "contain": true }'>
+            <div class="gallery-cell">
+                <div class="cellcontent">
+                    <div class="imageholder">
+                        <h2 class="date">around 2000</h2>
+                        <img src="images/story1.png" alt="">
+                    </div>
+                    <p>Somewhere around 2000 I was born in Rotem’s sketchbook in Bezalel</p>
+                </div>
             </div>
-            <div class="storyitem">
-                <h3>a page of my first book! (2001)”Luli’s Numbers” (soon on PlayStore)</h3>
-                <img src="images/story2.png" alt="">
+            <div class="gallery-cell">
+                <div class="cellcontent">
+                    <div class="imageholder">
+                        <h2 class="date">24/12/2001</h2>
+                        <img src="images/story2.png" alt="">
+                    </div>
+                    <p>A page of my first book: ”Luli’s Numbers”<br>It won the ??? graphic design competition!</p>
+                </div>
             </div>
-            <div class="storyitem">
-                <h3>this is my first picture! it’s from 2005!</h3>
-                <img src="images/story3.png" alt="">
+            <div class="gallery-cell">
+                <div class="cellcontent">
+                    <div class="imageholder">
+                        <h2 class="date">09/07/2004</h2>
+                        <img src="images/story4.png" alt="">
+                    </div>
+                    <p>This is my first picture from the photoshoot for Colors That Luly Loves!</p>
+                </div>
             </div>
-            <div class="storyitem">
-                <h3>this is from later that day i look a lot more like myself!</h3>
-                <img src="images/story4.png" alt="">
+            <div class="gallery-cell">
+                <div class="cellcontent">
+                    <div class="imageholder">
+                        <h2 class="date">07/07/2012</h2>
+                        <img src="images/story5.png" alt="">
+                    </div>
+                    <p>This is a picture of the only printed copy of my second book!<br>https://www.ourboox.com/b/2103/colors-that-luli-loves/</p>
+                </div>
             </div>
-            <div class="storyitem">
-                <h3>the only printed copy of my second book! (2012)</h3>
-                <img src="images/story5.png" alt="">
+            <div class="gallery-cell">
+                <div class="cellcontent">
+                    <div class="imageholder">
+                        <h2 class="date">03/01/2014</h2>
+                        <img src="images/story6.png" alt="">
+                    </div>
+                    <p>before i had an android app, Rotem’s friend made me one for apple but she took it down after two months :(</p>
+                </div>
             </div>
-            <div class="storyitem">
-                <h3>before i had an android app,Rachel made me one, but she terminated it two years after (2014)</h3>
-                <img src="images/story6.png" alt="">
-            </div>
-            <div class="storyitem">
-                <h3>my android app I published 1 month ago! it was made from scratch by Michael!</h3>
-                <img src="images/story7.png" alt="">
+            <div class="gallery-cell">
+                <div class="cellcontent">
+                    <div class="imageholder">
+                        <h2 class="date">10/05/2000</h2>
+                        <img src="images/story7.png" alt="">
+                    </div>
+                    <p>My android app we published 2 months ago! Michael made it from scratch over a year (and this website)<br>https://play.google.com/store/apps/details?id=com.theprogames.colorsthatlulyloves</p>
+                </div>
             </div>
         </div>
     </section>
@@ -154,13 +182,13 @@
             <div class="line"></div>
             <div class="family">
                 <h3>iOS app</h3>
-                <img src="images/w=434 (1).png" class="circleimg" alt="">
+                <img src="images/w=434 (1).avif" class="circleimg" alt="">
                 <h4>Rachel Mislovati</h4>
             </div>
             <div class="line"></div>
             <div class="family">
                 <h3>full app development<br>website developer</h3>
-                <img src="images/w=652.png" class="circleimg" alt="">
+                <img src="images/w=652.avif" class="circleimg" alt="">
                 <h4>Michael Levin</h4>
             </div>
         </div>
@@ -270,7 +298,7 @@
             </div>
             <div class="socialitem right">
                 <div class="top">
-                    <img src="images/w=652.png" class="circleimg" alt="">
+                    <img src="images/w=652.avif" class="circleimg" alt="">
                     <div class="text-container">    
                         <h3>Michael Levin</h3>
                         <h4>App Developer<br>Website Designer<br><span>054-6807205</span></h4>
@@ -298,16 +326,6 @@
             </div>
         </div>
     </section>
-
-    <!-- Flickity HTML init -->
-    <div class="gallery js-flickity"
-        data-flickity-options='{ "wrapAround": true }'>
-        <div class="gallery-cell"></div>
-        <div class="gallery-cell"></div>
-        <div class="gallery-cell"></div>
-        <div class="gallery-cell"></div>
-        <div class="gallery-cell"></div>
-    </div>
 
     <script src="js/script.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
